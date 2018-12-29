@@ -92,7 +92,7 @@ def parse_detail(uid):
     datas = {
         "uid" : uid,
         "output" : "json",
-        "ak" : "A0UtOtkHHNMMDAcw3Q6apnPDrAfXBcdY",
+        "ak" : "对应的AK数据，百度申请",#ak数据
         "scope" : 2,
     }
     d_json = spider(url, datas)
@@ -105,7 +105,7 @@ def baidusearch(page_num,cityname,myquery):
         "query" : myquery,
         "region" : cityname,
         "output" : "json",
-        "ak" : "A0UtOtkHHNMMDAcw3Q6apnPDrAfXBcdY",
+        "ak" : "对应的AK数据，百度申请",#ak数据
         "page_size" : 20,
         "page_num" : page_num,
         "city_limit" : "True"
