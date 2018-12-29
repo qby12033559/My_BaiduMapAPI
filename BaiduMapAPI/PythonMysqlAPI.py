@@ -1,7 +1,7 @@
 import pymysql
 
 #连接数据库
-db = pymysql.connect('47.52.28.187','andrew','Qby12033559','mypython')
+db = pymysql.connect('IP','user','password','databasename')
 cursor = db.cursor()
 
 class Sql():
